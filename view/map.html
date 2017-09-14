@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Map Investigation </title>
+<link rel="stylesheet" href="map.css" type="text/css"/>
+</head>
+<body>
+<div id="panel">
+  <div id="color-palette"></div>
+  <div>
+    <button id="delete-button">Delete Selected Shape</button>
+    <button id="calculate" onClick="calcar()">calculate area</button>
+    <div id="area"></div>
+    <div id="address"></div>
+    <select id="selectTravelCity">choose the address</select>>
+  </div>
+</div>
+<div id="map"></div>
+<script type="text/javascript" src="map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvEK15YWCm0JJlYiJGdY1shUtw_XBeir0&callback=initialize&libraries=geometry,drawing,places"
+    async defer></script>
+   
+
+</body>
+</html>
